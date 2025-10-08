@@ -25,3 +25,6 @@ export default userSlice.reducer; // 리듀서 export
 
 // Redux Toolkit 에서 상태, 액션(상태 변경 함수) 등을 모아놓은 단위를 slice
 // 여기서는 user 의 상태 (로그인상태) 를 관리할 것이다.
+
+export const selectUser = (state) => state.user.userInfo; // 추가
+export const selectIsLoggedIn = (state) => state.user.isLoggedIn; // 추가

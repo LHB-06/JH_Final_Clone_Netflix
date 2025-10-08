@@ -3,7 +3,7 @@ import {
   selectUser,
   selectIsLoggedIn,
   logout as logoutAction,
-} from "../store/authSlice";
+} from "../store/userSlice"; // authSlice 에서 userSlice 로 바꿔줌
 
 /**
  * Redux store의 인증 상태를 가져오고, 관련 액션을 디스패치하는 커스텀 훅

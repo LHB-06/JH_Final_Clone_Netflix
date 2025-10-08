@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx"; // 수정
 import "./styles/globals.css"; // 추가
 import { Provider } from "react-redux";
-import { store } from "./store/store.js";
+import store from "./store/store.js"; // {store} 중괄호 없앰
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
